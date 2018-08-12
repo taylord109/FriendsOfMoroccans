@@ -1,7 +1,7 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/out-tsc",
+    "baseUrl": "",
+    "outDir": "./dist",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -16,4 +16,12 @@
       "dom"
     ]
   }
+  ,
+  "angularCompilerOptions":{
+    "preserveWhitespace": false
+  },
+  "exclude":[
+    "dist/*",
+    "e2e"
+  ],
 }
