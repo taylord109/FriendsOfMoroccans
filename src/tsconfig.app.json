@@ -8,7 +8,6 @@
   },
   "exclude": [
     "test.ts",
-    "e2e",
     "**/*.spec.ts"
   ]
 }

@@ -1,5 +1,5 @@
-import {EventEmitter, Injectable} from '@angular/core';
-import {MainPage} from "../../types/mainTypes";
+import { EventEmitter, Injectable } from '@angular/core';
+import { MainPage } from '../types/mainTypes';
 
 @Injectable()
 export class MainService {
@@ -8,10 +8,10 @@ export class MainService {
   public pageChange: EventEmitter<MainPage> = new EventEmitter<MainPage>();
 
   constructor() {
-    this.currentPage = "home";
+    this.currentPage = 'home';
     this.pageChange.subscribe((changedPage: MainPage) => {
       this.currentPage = changedPage;
-    })
+    });
   }
 
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {MainService} from "../services/main.service";
-import {MainPage} from "../../types/mainTypes";
+import { MainService } from '../services/main.service';
+import { MainPage } from '../types/mainTypes';
 
 @Component({
   selector: 'fm-main',
@@ -14,7 +14,7 @@ export class MainComponent implements OnInit {
 
   constructor(mainService: MainService) {
     this.mainService = mainService;
-    mainService.pageChange.subscribe((pageChange: MainPage)=>{
+    mainService.pageChange.subscribe((pageChange: MainPage) => {
       this.currentPage = pageChange;
     });
   }
