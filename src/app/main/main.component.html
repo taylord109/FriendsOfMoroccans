@@ -1,0 +1,27 @@
+<!-- <h1 class="title" id="title">North Africa Connection</h1> -->
+
+<nav id="nav" class="nav">
+  <div class="nav-item">Title</div>
+  <div class="nav-item">First</div>
+  <div class="nav-item">Second</div>
+  <div class="nav-item">Third</div>
+  <div class="nav-item">Fourth</div>
+  <div class="nav-item">Fifth</div>
+  <div class="nav-item">Sixth</div>
+  <div class="nav-item">Donate</div>
+</nav>
+
+<div class="container">
+  <video
+    #headerVideo
+    class="video"
+    (canplay)="headerVideoCanPlay(headerVideo)"
+    [ngStyle]="{ 'height.px': screenHeight, 'width.px': screenWidth }"
+  >
+    <source src="../../assets/market.mp4" type="video/mp4" />
+  </video>
+  <!-- <div class="test" #market></div> -->
+</div>
+
+<fm-sidebar></fm-sidebar>
+<router-outlet></router-outlet>
