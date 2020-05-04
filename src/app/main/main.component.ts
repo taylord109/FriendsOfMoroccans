@@ -3,7 +3,8 @@ import {
   OnInit,
   ElementRef,
   ViewChild,
-  OnDestroy
+  OnDestroy,
+  AfterViewInit
 } from '@angular/core';
 import { MainService } from '../services/main.service';
 import { MainPage } from '../types/mainTypes';
@@ -13,10 +14,11 @@ import { MainPage } from '../types/mainTypes';
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.sass']
 })
-export class MainComponent implements OnInit, OnDestroy {
+export class MainComponent implements AfterViewInit, OnInit,OnDestroy {
   public currentPage: MainPage;
   public mainService: MainService;
-  @ViewChild('market') market: ElementRef;
+  @ViewChild('headerVideo') headerVideoRef: ElementRef<HTMLVideoElement>;
+  public headerVideo: HTMLVideoElement;
 
   public screenWidth = 0;
   public screenHeight = 0;
@@ -29,21 +31,34 @@ export class MainComponent implements OnInit, OnDestroy {
       this.currentPage = pageChange;
     });
   }
-
-  ngOnInit() {
-    this.market = this.market.nativeElement;
-
-    this.market['mute'] = true;
-    this.market['autoplay'] = true;
-    this.market['loop'] = true;
-
-    this.currentPage = this.mainService.currentPage;
+  ngOnInit(){
     this.screenWidth = window.innerWidth;
     this.screenHeight = window.innerHeight;
-    this.screenSizeSub = window.addEventListener('resize', event => {
-      this.screenWidth = window.innerWidth;
-      this.screenHeight = window.innerHeight;
-    });
+    this.screenSizeSub = window.addEventListener(
+      'resize',
+      this.resizeHeader.bind(this)
+    );
+    this.currentPage = this.mainService.currentPage;
+    this.resizeHeader();
+  }
+
+  ngAfterViewInit() {
+    this.headerVideo = this.headerVideoRef.nativeElement;
+    this.headerVideo['mute'] = true;
+    this.headerVideo['autoplay'] = true;
+    this.headerVideo['loop'] = true;
+  }
+
+  resizeHeader() {
+    const scrollbar = window.innerWidth - document.documentElement.clientWidth;
+    this.screenWidth = window.innerWidth - scrollbar;
+    this.screenHeight = window.innerHeight;
+  }
+
+  headerVideoCanPlay(headerElement) {
+    if (this.headerVideo) {
+      this.headerVideo.play();
+    }
   }
 
   ngOnDestroy() {

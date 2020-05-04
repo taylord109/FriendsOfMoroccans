@@ -13,8 +13,9 @@
 
 <div class="container">
   <video
-    #market
+    #headerVideo
     class="video"
+    (canplay)="headerVideoCanPlay(headerVideo)"
     [ngStyle]="{ 'height.px': screenHeight, 'width.px': screenWidth }"
   >
     <source src="../../assets/market.mp4" type="video/mp4" />
