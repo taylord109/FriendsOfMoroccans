@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="267f0274-b730-4b60-a27c-733bb7eb653e" name="Default Changelist" comment="Fixed all app problems">
+      <change beforePath="$PROJECT_DIR$/.angular-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angulardoc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/about/about.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/about/about.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/about/about.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/about/about.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/account/account.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/account/account.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/account/account.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/account/account.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/donate/donate.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/donate/donate.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/donate/donate.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/donate/donate.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/header.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/menu/menu.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/menu/menu.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/menu/menu.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/menu/menu.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/title/title.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/title/title.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/header/title/title.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/home/home.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/sidebar/sidebar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/main.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/types/mainTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/market.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/mainTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bQLsuFuVPaXbiVT19Dpe9GDfj8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (friends-of-moroccans)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (friends-of-moroccans-e2e)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="267f0274-b730-4b60-a27c-733bb7eb653e" name="Default Changelist" comment="" />
+      <created>1588559580993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588559580993</updated>
+      <workItem from="1588559582927" duration="1644000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fixed all app problems">
+      <created>1588560940067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588560940067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_WIDTH">
+      <map>
+        <entry key="3" value="125" />
+      </map>
+    </option>
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed all app problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed all app problems" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1874" y="-349" width="2808" height="1469" key="DiffContextDialog" timestamp="1588561606339">
+      <screen x="1792" y="-549" width="3008" height="1669" />
+    </state>
+    <state x="1874" y="-349" width="2808" height="1469" key="DiffContextDialog/4800.-549.3008.1669/1792.-549.3008.1669/0.23.1792.1097@1792.-549.3008.1669" timestamp="1588561606339" />
+    <state x="5000" y="-349" width="2808" height="1469" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588561606340">
+      <screen x="4800" y="-549" width="3008" height="1669" />
+    </state>
+    <state x="5000" y="-349" width="2808" height="1469" key="com.intellij.history.integration.ui.views.FileHistoryDialog/4800.-549.3008.1669/1792.-549.3008.1669/0.23.1792.1097@1792.-549.3008.1669" timestamp="1588561606340" />
+    <state x="2959" y="-163" key="search.everywhere.popup" timestamp="1588560880094">
+      <screen x="1792" y="-549" width="3008" height="1669" />
+    </state>
+    <state x="2959" y="-163" key="search.everywhere.popup/4800.-549.3008.1669/1792.-549.3008.1669/0.23.1792.1097@1792.-549.3008.1669" timestamp="1588560880094" />
+  </component>
+</project>
