@@ -44,7 +44,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules, useHash: false })
+    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules, useHash: false, relativeLinkResolution: 'legacy' })
   ],
   exports: [RouterModule],
   providers: [MainService],
